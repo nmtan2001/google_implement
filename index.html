@@ -2,11 +2,33 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+        <div class="header flexring">
+            <div class="headerpad">
+                <div class="headerpad1">
+                    <a href="imagesearch.html" class="refa">Images</a>
+                    <a href="advanced.html" class="refa">Advanced search</a>
+                </div>
+            </div>
+        </div>
+        <div class="flexring logo">
+            <div class="padimage">            
+                <img src="logo.png" alt="Google" class="logoimage">
+            </div>
+        </div>
+        <div class="search flexring">
+            <form action="https://google.com/search" class="formsearch">
+                <input type="text" name="q" class="forminput">
+                <br>
+                <div class="searchbuttons">     
+                    <center>
+                        <input type="submit" name="btnK" value="Google Search" class="button">
+                        <input type="submit" name="btnI" value="I am Feeling Lucky" class="button">
+                    </center>
+                </div>
+            </form>
+        </div>
     </body>
 </html>
