@@ -48,8 +48,10 @@
     object-position: center bottom;
     width: auto;
     aspect-ratio: auto 272 /92;
-    overflow: clip;
-    overflow-clip-margin: content-box;
+}
+
+.smlogo{
+    width: 74px;
 }
 .search{
     max-height: 160px;
@@ -67,7 +69,7 @@
     top: 0;
     left: 0;
     right: 0;
-    padding: revert-layer;
+    padding: 1px 8px;
     width: inherit;
     font-size: 14px;
     font-family: arial,sans-serif;
@@ -97,5 +99,73 @@
     min-width: 54px;
     text-align: center;
     cursor: pointer;
-    user-select: none;
+}
+
+.appbar {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+    font-family: arial,sans-serif;
+}
+
+.advanceform{
+    width: 96%;
+    margin: 40px 2% 0 45px;
+}
+
+.advancelabel{
+    float: left;
+    display: flex;
+    align-items: center;
+    min-width: 167px;
+    width: 16%;
+    height: 42px;
+    color: #222;
+    font-size: 14px;
+    line-height: 16px;
+    vertical-align: middle;
+    
+}
+.divlab{
+    clear: both;
+}
+
+.findpage{
+    float: left;
+    min-width: 167px;
+    width: 16%;
+    font-size: 16px;
+    min-height: 42px;
+    font-weight: 500;
+    color: #333;
+    vertical-align: middle;
+}
+.advanceinput{
+    display: inline-block;
+    width: 50%;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+}
+
+.advancebutton{
+    box-shadow: none;
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    border: 1px solid #3079ed;
+    color: #fff;
+    min-width: 54px;
+    line-height: 100%;
+    height: 30px;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    padding: 0 12px;
+    margin: 10px 0;
 }

@@ -1,15 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Advance Search</title>
+        <title>Search</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <form action="https://www.google.com/search">
-            <label for="as_q">all these words:</label><input type="text" name="as_q" id="allWords">
-            <label for="as_epq">this exact word or phrase:</label><input type="text" name="as_epq" id="exactWords">
-            <label for="as_oq"></label>any of these words:<input type="text" name="as_oq" id="anyOfWords">
-            <label for="as_eq"></label>none of these words:<input type="text" name="as_eq" id="noneOfWords">
-            <input type="submit" value="Google Search">
-        </form>
+        <div class="header flexring">
+            <div class="headerpad">
+                <a href="advanced.html"><img src="logo.png" alt="Google" class="smlogo"></a>
+
+                <div class="headerpad1">
+                    <a href="index.html" class="refa">Search</a>
+                    <a href="imagesearch.html" class="refa">Images</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="appbar">
+            <label style="margin-left: 10px;">Advanced Search</label>
+        </div>
+        <div class="advanceform">
+            <div class="findpage">Find pages with</div>
+            <form action="https://www.google.com/search">
+                <div class="divlab">
+                    <label for="as_q" class="advancelabel">all these words:</label>
+                    <input type="text" name="as_q" id="allWords" class="advanceinput">
+                </div>
+                <div class="divlab">
+                    <label for="as_epq" class="advancelabel">this exact word or phrase:</label>
+                    <input type="text" name="as_epq" id="exactWords" class="advanceinput">
+                </div>
+                <div class="divlab">
+                    <label for="as_oq" class="advancelabel">any of these words:</label>
+                    <input type="text" name="as_oq" id="anyOfWords" class="advanceinput">
+                </div>
+                <div class="divlab">
+                    <label for="as_eq" class="advancelabel">none of these words:</label>
+                    <input type="text" name="as_eq" id="noneOfWords" class="advanceinput">
+                </div>
+                <input type="submit" value="Advanced Search" class="advancebutton">
+            </form>
+        </div>
+        
     </body>
 </html>
