@@ -28,6 +28,7 @@
 .refa{
     color:black;
     padding-right: 15px;
+    text-decoration: none;
 }
 .logo {
     display: flex;
@@ -55,41 +56,21 @@
     padding: 20px;
 }
 .forminput{
-    flex: 1;
     display: flex;
+    flex: 1;
+    height: 25px;
     padding: 5px 8px 0 14px;
+    border: 1px solid;
+    border-radius: 10px;
     margin: 8px;    
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    padding: inherit;
+    padding: revert-layer;
     width: inherit;
-}
-.textarea1{
-    flex: 1;
-    display: flex;
-    padding: 5px 8px 0 14px;
-    flex-wrap: wrap;
-    flex: 1;
-    margin-top: 6px;
-}
-
-textarea{
+    font-size: 14px;
     font-family: arial,sans-serif;
-    resize: none;
-    background-color: transparent;
-    border: none;
-    margin: 0;
-    padding: 0;
-    word-wrap: break-word;
-    outline: none;
-    display: flex;
-    line-height: 22px;
-    margin-bottom: 8px;
-    overflow-x: hidden;
-    font-size: 16px;
-    flex: 100%;
 }
 
 .formsearch{
